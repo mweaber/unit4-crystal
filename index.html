@@ -1,0 +1,53 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="javascript" type="text/javascript" href="js.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    
+
+
+    <div id="masthead" class="header">
+        <div class="container">
+            <h1 class="intro">Welcome to the Crystal Game</h1>
+            <p>Welcome to The Crystal Game! The object of the game is to match the randomly generated score by clicking on the crystal below.
+                Click the button to begin the game and with each round the crystals below will be worth various amounts. Click to update your score and try to match
+                the given amount. If you go over the amount the game is over and you'll have to start again. Have fun!</p>
+            </p>
+        </div>
+    </div>
+
+    <div id="gameArea" class="gameBoard">
+        <div class="container2">
+            <div class="scoreToBeMatched">
+                <button class="buttonStart">Click Me!</button><br>
+                <div class="scoreBox">
+                    <h2 class="lines">Score to Match: <span id="scoreToMatch"></span></h2>
+                    <h2 class="lines">Your Score: <span id="playerScore"></span></h2>
+                    <h3 class="lines">Wins: <span id="winsMade"></span></h3>
+                    <h3 class="lines">Loss: <span id="lossMade"></span></h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="crystalImages">
+        <div class="images">
+            <button class="button1"><img src="images/image1.jpg" alt="emerald image"></button>
+            <button class="button2"><img src="images/image2.png" alt="emerald image"></button>
+            <button class="button3"><img src="images/image3.jpg" alt="emerald image"></button>
+            <button class="button4"><img src="images/image4.png" alt="emerald image"></button>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+    
+</body>
+</html>
