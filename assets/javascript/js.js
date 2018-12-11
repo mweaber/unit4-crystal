@@ -7,6 +7,10 @@ var button4Num = [];
 var counter = 0;
 var numberOptions = [];
 
+
+
+
+
     $(".buttonStart").on("click", function() {
 
         comNumber = Math.floor(Math.random() * (120 - 19) ) + 19;
@@ -43,7 +47,7 @@ var numberOptions = [];
         $(".button1").on("click", function(){
        
             counter+=button1Num;
-            alert("New score: " + counter);
+            $("#playerScore").text(counter);
             if(counter == comNumber){
                 alert("you've won!");
                 newGame();
@@ -58,7 +62,7 @@ var numberOptions = [];
         $(".button2").on("click", function(){
         
             counter+=button2Num;
-            alert("New score: " + counter);
+            $("#playerScore").text(counter);
             if(counter == comNumber){
                 alert("you've won!");
                 newGame();
@@ -72,7 +76,7 @@ var numberOptions = [];
         $(".button3").on("click", function(){
         
             counter+=button3Num;
-            alert("New score: " + counter);
+            $("#playerScore").text(counter);;
             if(counter == comNumber){
                 alert("you've won!");
                 newGame();
@@ -89,7 +93,7 @@ var numberOptions = [];
         $(".button4").on("click", function(){
         
             counter+=button4Num;
-            alert("New score: " + counter);
+            $("#playerScore").text(counter);
             if(counter == comNumber){
                 alert("you've won!");
                 newGame();
