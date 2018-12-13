@@ -8,16 +8,6 @@ var numberOptions = [];
 var wins = 0;
 var losses = 0;
 
-
-// $(".scoreToBeMatched").on("click", ".btn-active", function () {
-
-//     comNumber = Math.floor(Math.random() * (120 - 19)) + 19;
-//     $("#scoreToMatch").text(comNumber);
-//     $(".buttonStart").attr("class", "buttonStart btn-disable");
-//     // console.log(".scoreToBeMatched");Generating number and update html
-
-// });
-
 function gameLost() {
     $("#lossMade").text(losses);
     $("#playerScore").text("");
@@ -100,7 +90,6 @@ function scoreChecker() {
         crystalNumbers();
         comNumber = Math.floor(Math.random() * (120 - 19)) + 19;
         $("#scoreToMatch").text(comNumber);
-
 
     } else if (counter >= comNumber) {
         losses++;

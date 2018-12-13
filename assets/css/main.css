@@ -15,6 +15,7 @@ body{
     font-size:40px;
     text-shadow: 2px 5px 4px black;
     text-decoration: underline;
+    margin-bottom: 6px;
   }
 
 img{
@@ -37,3 +38,39 @@ img{
 .button4{
     border:solid 2px black;
 }
+
+p{
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+ #gameArea{
+    margin: auto 0;
+    padding:5px;
+ }
+
+ #lines{
+     position: relative;
+     margin-bottom: 1px;
+     width:60%;
+     align-items: center;
+     align-content: center;
+     left:20%;
+ }
+
+ .line1 {
+     border: outset;
+ }
+
+ .line2{
+     border: inset;
+ }
+
+ .line3{
+     border:outset;
+ }
+
+ .line4{
+     border:inset;
+ }
